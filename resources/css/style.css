@@ -24,7 +24,7 @@ p {
 }
 
 ul {
-  list-style:none;
+  list-style-type:none;
 }
 
 nav {
@@ -35,7 +35,7 @@ nav {
 }
 
 .background {
-  background-image:url("../Images/the-flatiron-building.png")
+  background-image:url("./Images/the-flatiron-building.png")
   color:white;
   font-size:18px;
 }

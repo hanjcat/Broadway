@@ -1,6 +1,6 @@
 html {
   font-family:Helvetica;
-  color:dimgray;
+  color:black;
   text-align:center;
 }
 
@@ -24,7 +24,10 @@ p {
 }
 
 ul {
+  font-size:18px;
   list-style-type:none;
+  padding:0;
+  line-height:.95;
 }
 
 nav {
@@ -34,10 +37,14 @@ nav {
   text-align:left;
 }
 
-.background {
-  background-image:url("./Images/the-flatiron-building.png")
+a {
   color:white;
-  font-size:18px;
+}
+
+.background {
+  background-image:url("../Images/the-flatiron-building.png");
+  background-position:left;
+  color:white;
 }
 
 #links {
